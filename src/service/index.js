@@ -9,8 +9,8 @@ const axios_config = {
         'Content-Type': 'application/x-www-form-urlencoded',
     },
     // baseURL: process.env.BASEURL,
-    // baseURL: process.env.VUE_APP_BASE_API,
-    baseURL: "http://cai.zvooo.com/",
+    baseURL: process.env.VUE_APP_BASE_API,
+    // baseURL: "http://cai.zvooo.com/",
     timeout: 5000,
     "Access-Control-Allow-Origin": "*"
 };
